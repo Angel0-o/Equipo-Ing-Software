@@ -1,0 +1,5 @@
+En este documento enumeremos los casos de uso y si esnecesario
+dar una breve descvripción del mismo:
+
+CUT1: Resgistro de Equipo
+CUT2: Resgistro de Jugador
