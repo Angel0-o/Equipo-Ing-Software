@@ -16,16 +16,19 @@ CUT3: Solicitar cambio de fecha/hora de partido
 (Cuando un equipo no pueda presentarse a jugar, el capitán puede enviar un mensaje al administrador solicitando un cambio de fecha/hora de juego.) 
 
 CUT4. Recibir solicitudes de cambio de fecha/hora de partido.
-(El administrador y el capitán pueden recibir peticiones de cambio de fecha/hora de un partido.)
+(El administrador puede recibir peticiones de cambio de fecha/hora de un partido.)
 
-CUT4.1 Notificar cambio de fecha/hora
+CUT4.1 Notificar fecha/hora propuesta.
 (Cuando el administrador reciba una solicitud de cambio de fecha/hora de un partido, deberá notificar a los capitanes, la fecha/hora propuesta)
 
-CUT4.2 Modificar fecha/hora de los partidos.
+CUT4.2 Aceptar/Rechazar fecha/hora propuesta
+(El capitán recibe una notificación con una fecha/hora propuesta, misma que puede aceptar o rechazar)
+
+CUT4.3 Modificar fecha/hora de los partidos.
 (Si ambos capitanes están de acuerdo con la fecha propuesta, el administrador deberá modificar el calendario correspondiente con la nueva fecha/hora).
 
 CUT5: Crear torneo
-(el administrador crea un nuevo torneo, ingresando los horarios disponibles para jugar a lo largo del mismo, concluido lo anterior,
+(El administrador crea un nuevo torneo, ingresando los horarios disponibles para jugar a lo largo del mismo, concluido lo anterior,
 el sistema publica la convocatoria y se abre el periodo de registro)
 
 CUT6: Consultar calendario y resultado de los torneos. 
