@@ -2,11 +2,25 @@
 \section{Actores}
 
 \begin{Actor}{Capitán de Equipo} 
-	\BRitem[Descripción:] El cliente deberá ser mayor de edad para adquirir una membresia.
-	\BRitem[Tipo:] Habilitadora.
-	\BRitem[Nivel:] Estricta.
+	\BRitem[Descripción:] El capitán será aquel jugador que represente al resto del equipo frente a las autoridades, y estará a cargo de realizar los trámites correspondientes.
+	\BRitem[Estatus:] En desarrollo.
+	\BRitem[Responsabilidades:] Su responsabilidad se limita al registro de su equipo,  registro de sus jugadores, solicitar cambio de fecha de algún partido y al pago de cuota.
+	\BRitem[Perfil:] Se requiere que el capitán tenga acceso a internet cuando desee interactuar con el sistema.
+	\BRitem[Cantidad:] Tantos capitanes como equipos estén registrados.
 \end{Actor}
 
+\begin{Actor}{Administrador} 
+	\BRitem[Descripción:] El administrador será aquella persona encargada de manejar el sistema.
+	\BRitem[Estatus:] En desarrollo.
+	\BRitem[Responsabilidades:] Su responsabilidad se limita a la creación de torneos, validación de registros (el requisito para que un registro sea válido es que el capitán haya pagado la cuota establecida), vaciado de resultados en el sistema y validación de cambios de fecha.
+	\BRitem[Perfil:] Se requiere que el administrados tenga acceso a internet cuando desee interactuar con el sistema.
+	\BRitem[Cantidad:] Al menos uno.
+\end{Actor}
 
-
-
+\begin{Actor}{Usuario} 
+	\BRitem[Descripción:] El usuario será aquella persona que podrá usar el sistema con fines informativos.
+	\BRitem[Estatus:] En desarrollo.
+	\BRitem[Responsabilidades:] Su responsabilidad se limita a la visualización de calendarios y tablas generales.
+	\BRitem[Perfil:] Se requiere que el usuario tenga acceso a internet cuando desee interactuar con el sistema.
+	\BRitem[Cantidad:] Tantos como personas interesadas existan.
+\end{Actor}
