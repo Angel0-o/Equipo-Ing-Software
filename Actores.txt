@@ -1,3 +1,7 @@
 Al igual que en el de Casos de Uso "enumeremos" a los actores involucrados con el sistema
 
-* Capit醤 de Equipo: su responsabilidad se limita a la inscripci髇 de su equipo, solicitar modificaciones de partido y pago de inscripci髇.
+* Jugador: Puede realizar consultas sobre el estado del torneo; resultados, pr贸ximas fechas, posiciones.
+
+* Capit谩n de Equipo: su responsabilidad se limita a la inscripci贸n de su equipo, solicitar modificaciones de partido y pago de inscripci贸n. Adem谩s puede realizar las mismas actividades que un jugador.
+
+* Administrador: Es responsable de publicar la informaci贸n para que personas interesadas puedan inscribirse en el torneo. Esto es convocatorias, grupos del torneo, calendario. Es responsable de confirmar los registros de equipos que ya esten registrados en el torneo y realizado el pago correspondiente. De la misma forma debe administrar la realizaci贸n del torneo, es decir, subir resultados y atender peticiones de cambio de fecha de partidos.
