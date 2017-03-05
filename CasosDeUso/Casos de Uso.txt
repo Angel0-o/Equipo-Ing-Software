@@ -55,4 +55,4 @@ Al inicio del semestre el administrador publica las convocatorias del torneo de 
 CU8. Publicar grupos y horarios.
 Publicación de los horarios en que cada grupo juega, para que los equipos puedan elegir.
 
-Estos dos casos de uso, en mi opinión están inmersos en el CUT4.
+Estos dos casos de uso, en mi opinión están inmersos en el CUT5.
