@@ -249,6 +249,16 @@
 
 
 
+\newenvironment{Actor}[1]%linea original
+{%
+	\hypertarget{#1}{}%Linea original
+	\noindent{\large{\bf Actor:} #1}%line Original
+	\begin{description}\addtolength{\itemsep}{-0.5\baselineskip}%
+}
+{%
+	\end{description}
+}
+
 \newenvironment{BussinesRule}[2]%linea original
 {%
 	\hypertarget{#1}{}%Linea original
@@ -258,7 +268,6 @@
 {%
 	\end{description}
 }
-
 
 
 \newcommand{\BRitem}[1][]{\item[#1]}
