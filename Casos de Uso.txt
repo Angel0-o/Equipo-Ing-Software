@@ -1,6 +1,25 @@
-﻿En este documento enumeremos los casos de uso y si esnecesario
+﻿En este documento enumeremos los casos de uso y si es necesario
 dar una breve descripción del mismo:
+=================================================Requerimientos funcionales ==============================================
+RF1. Usuarios
+RF2. Torneos.
+RF3. Calendario de partidos.
+RF4. Catálogo de equipos.
+RF5. Catálogo de jugadores.
+RF6. Catálogo de árbitros.
+RF7. Grupos del torneo.
+RF8. Convocatorias.
+RF9. Árbitros.
+RF10. Entrenamientos.
+RF11. Cancelaciones de partidos.
+RF12: El sistema podrá registrar/modificar/eliminar a un estudiante dentro del club de futbol de la ESCOM.
+RF13: El sistema será capaz de llevar la contabilidad de horas entrenadas/jugadas de cada miembro del club.
+RF14: Un usuario será capaz de crear un torneo nuevo y lanzar la convocatoria, siempre y cuando dicho torneo sea aprobado y verificado por autoridades superiores a él.
+RF15: Un usuario será capaz de modificar, si es que lo requiere, la fecha de algún partido previamente establecida. Con la restricción de que dicho cambio haya sido acordado por ambos equipos y que haya sido aceptada por las autoridades competentes.
+RF16: El capitán de equipo puede solicitar un cambio de fecha u horario de un partido, al Coordinador del Club, en tanto que la solicitud sea aprobada por conformidad de los demás participantes del torneo, a través del Coordinador como intermediario.
 
+
+===================================================CASOS DE USO===========================================================
 CUT1: Resgistro de Equipo (se mostrará un pantalla UIT-"Tipo de Torneo" <Interfaz de Usuario>
 en donde el capitán pueda seleccionar el tipo de torneo, una vez hecho esto, se pasara
 a la pantalla UIT-"Nombre y Capitán" en donde se hará el registro del nombre del equipo y el capitán
@@ -10,3 +29,5 @@ CUT2: Resgistro de Jugador (se mostrará la pantalla UIT-"Registro de Jugador" e
 una vez terminado el registro del jugador, se regresara a la UIT-"Plantilla de Jugadores")
 CUT3: Solicitud de cambio de fecha de partido
 CUT4: Registro de torneo (el Coordinador del club de fútbol registra los horarios para los partidos inciales del torneo, cuando finaliza el registro, se publica la convocatoria al torneo y se abre el periodo de registro)
+
+
