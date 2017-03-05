@@ -1,4 +1,4 @@
-﻿cU 1. Registrar capitán
+CU 1. Registrar capitán
 
 CU 2. Resgistrar jugadores
 El capitán, que previamente ya se registro, realiza el registro de su equipo y de los jugadores
