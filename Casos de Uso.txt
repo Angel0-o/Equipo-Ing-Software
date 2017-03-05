@@ -1,9 +1,10 @@
 En este documento enumeremos los casos de uso y si esnecesario
-dar una breve descripciÛn del mismo:
+dar una breve descripci√≥n del mismo:
 
-CUT1: Resgistro de Equipo (se mostrar· un pantalla UIT1 <Interfaz de Usuario>
-en donde el capit·n pueda seleccionar el tipo de torneo, una vez hecho esto, se pasara
-a la pantalla UIT2 en donde se har· el registro del nombre del equipo y el capit·n
-terminadp el registro anterior, se mostrar· la pantalla UIT3 en donde se podr·n
+CUT1: Resgistro de Equipo (se mostrar√° un pantalla UIT1 <Interfaz de Usuario>
+en donde el capit√°n pueda seleccionar el tipo de torneo, una vez hecho esto, se pasara
+a la pantalla UIT2 en donde se har√° el registro del nombre del equipo y el capit√°n
+terminadp el registro anterior, se mostrar√° la pantalla UIT3 en donde se podr√°n
 registrar los jugadores)
 CUT2: Resgistro de Jugador
+CUT3: Solicitud de cambio de fecha de partido
