@@ -1,0 +1,34 @@
+CU 1. Registrar capitán
+
+CU 2. Resgistrar jugadores
+El capitán, que previamente ya se registro, realiza el registro de su equipo y de los jugadores
+
+CU3. Registrar equipo en el torneo.
+El capitán puede inscribir su equipo, el cual ya está registrado, en alguno de los torneos y determinado grupo. El registro queda pendiente hasta que realicen el pago y el administrador lo valide.
+
+CU4. Solicitar cambio de fecha del partido
+Cuando un equipo no pueda presentarse a jugar, el capitan puede enviar un mensaje al administrador solicitando posponer el juego, para otra fecha.
+
+CU5. Consultar calendario y resultado de los torneos. 
+Un usuario, sin necesidad de registro puede consultar el calendario completo del torneo y el resultado de los juegos realizados hasta el momento (En el calendario pueden mostrarse los resultados).
+
+CU6. Consultar grupos y estadisticas.
+La consulta de las posiciones en cada grupo (puntos, goles, ...).
+
+CU7. Publicar convocatorias.
+Al inicio del semestre el administrador publica las convocatorias del torneo de soccer y rápido.
+
+CU8. Publicar grupos y horarios.
+Publicación de los horarios en que cada grupo juega, para que los equipos puedan elegir.
+
+CU9. Aprobar solicitud de registro de equipo.
+Cuando un equipo ya realizo su registro y pago, el administrado cambio su estado a correcto, lo que autoriza al equipo a elegir grupo.
+
+CU 10.Subir resultados de partidos.
+El administrador sube la información de los partidos que ya se jugaron para que el sistema actualice las posiciones.
+
+CU 11. Recibir solicitudes de posponer partidos.
+El administrador puede recibir peticiones de los equipo para posponer partidos.
+
+CU 11.1 Modificar fecha y hora de los partidos.
+Si el administrador considera que la petición de cambiar la fecha del partido cuenta con los argumentos adecuados, puede modificar la fecha y hora del partido en cuestión.
