@@ -8,3 +8,4 @@ terminadp el registro anterior, se mostrará la pantalla UIT3 en donde se podrá
 registrar los jugadores)
 CUT2: Resgistro de Jugador
 CUT3: Solicitud de cambio de fecha de partido
+CUT4: Registro de torneo (el Coordinador del club de fútbol registra los horarios para los partidos inciales del torneo, cuando finaliza el registro, se publica la convocatoria al torneo y se abre el periodo de registro)
