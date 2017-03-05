@@ -11,26 +11,26 @@ RF6. Catálogo de árbitros. #Documento Arredondo Edgar
 RF7. Grupos del torneo. #Documento Arredondo Edgar
 RF8. Convocatorias. #Documento Arredondo Edgar
 RF9. Árbitros. #Documento Arredondo Edgar
-RF10. Entrenamientos. #Documento Arredondo Edgar
+RF10. Entrenamientos. #Documento Arredondo Edgar <-No se consideran entrenamientos para modulo de Torneos
 RF11. Cancelaciones de partidos. #Documento Arredondo Edgar
-RF12: El sistema podrá registrar/modificar/eliminar a un estudiante dentro del club de futbol de la ESCOM.
-RF13: El sistema será capaz de llevar la contabilidad de horas entrenadas/jugadas de cada miembro del club.
-RF14: Un usuario será capaz de crear un torneo nuevo y lanzar la convocatoria, siempre y cuando dicho torneo sea aprobado y verificado por autoridades superiores a él.
+RF12: El sistema podrá registrar/modificar/eliminar a un estudiante dentro del club de futbol de la ESCOM. <-Aunque el sistema es para el club, los estudiantes se registran en los torneos no en el club
+RF13: El sistema será capaz de llevar la contabilidad de horas entrenadas/jugadas de cada miembro del club. <-No se consideran horas de entrenamiento para el modulo de Torneos
+RF14: Un usuario será capaz de crear un torneo nuevo y lanzar la convocatoria, siempre y cuando dicho torneo sea aprobado y verificado por autoridades superiores a él. <-¿Cualquier usuario puede crear un torneo nuevo, no es facultad del Coordinador del CLub?
 RF15: Un usuario de tipo coordinador será capaz de modificar, si es que lo requiere, la fecha de algún partido previamente establecida. Con la restricción de que dicho cambio haya sido acordado por ambos equipos y que haya sido aceptada por las autoridades competentes.
 RF16: El capitán de equipo puede solicitar un cambio de fecha u horario de un partido, al Coordinador del Club, en tanto que la solicitud sea aprobada por conformidad de los demás participantes del torneo, a través del Coordinador como intermediario.
 RF17: El capitán de equipo puede solicitar un cambio de fecha u horario de un partido, al Coordinador del Club, en tanto que la solicitud sea aprobada por conformidad de los demás participantes del torneo, a través del Coordinador como intermediario.
-RF18: Para aquellos alumnos acumulando horas de la UA Electiva, por medio de entrenamiento, el Coordinador podrá generar sus constancias de horas a través del sistema (únicamente deberá reunir las firmas correspondientes).
+RF18: Para aquellos alumnos acumulando horas de la UA Electiva, por medio de entrenamiento, el Coordinador podrá generar sus constancias de horas a través del sistema (únicamente deberá reunir las firmas correspondientes). <-Tampoco se considera
 RF19: El sistema debe tener un repositorio de formatos para los trámites relacionados al Club.
 
 =================================================Requerimientos no funcionales============================================
 RNF1: El sistema podrá ser usado por al menos N usuarios.
 RNF2: El sistema se visualizará correctamente en las siguientes versiones de los navegadores o posteriores: Chrome 56.0, Firefox 31.0, Safari 10.0, Edge 38.0.
-RNF3: El sistema deberá tener incorporadas métricas para que las actividades del usuario deberán ser realizadas en pocos pasos.
+RNF3: El sistema deberá tener cumplir con métricas de software para que las actividades del usuario sean realizadas en pocos pasos.
 RNF4: El sistema tendrá la posibilidad del procesamiento de cierta cantidad de transacciones.
 RNF5: El sistema deberá tener un tiempo de respueta máximo de 3 segundos.
 RNF6: La aplicación deberá estar instalado en un servidor que cuente con:
 	- Apache .
-	- MySQLo cualquier base de datos.
+	- MySQL o cualquier base de datos.
 RNF7: El sistema debe proporcionar mensajes de error que sean informativos y orientados a usuario final.
 RNF8: La aplicación web debe poseer un diseño “Responsive” a fin de garantizar la adecuada visualización en múltiples computadores personales, dispositivos tableta y teléfonos inteligentes.
 RNF9: Los permisos de acceso al sistema podrán ser cambiados solamente por el administrador, previa justificación.
