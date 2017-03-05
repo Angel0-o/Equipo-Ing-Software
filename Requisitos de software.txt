@@ -1,6 +1,7 @@
 Archivo que enlista los RF y RNF
 
 RF
-
+El Coordinador del club de fútbol establecerá las fechas y horarios de los torneos.
 
 RNF
+El sistema estará disponible en una plataforma web.
