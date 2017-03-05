@@ -1,5 +1,9 @@
 En este documento enumeremos los casos de uso y si esnecesario
-dar una breve descvripción del mismo:
+dar una breve descripción del mismo:
 
-CUT1: Resgistro de Equipo
+CUT1: Resgistro de Equipo (se mostrará un pantalla UIT1 <Interfaz de Usuario>
+en donde el capitán pueda seleccionar el tipo de torneo, una vez hecho esto, se pasara
+a la pantalla UIT2 en donde se hará el registro del nombre del equipo y el capitán
+terminadp el registro anterior, se mostrará la pantalla UIT3 en donde se podrán
+registrar los jugadores)
 CUT2: Resgistro de Jugador
