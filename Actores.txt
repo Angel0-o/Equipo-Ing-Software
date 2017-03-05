@@ -1,0 +1,3 @@
+Al igual que en el de Casos de Uso "enumeremos" a los actores involucrados con el sistema
+
+* Capitán de Equipo: su responsabilidad se limita a la inscripción de su equipo, solicitar modificaciones de partido y pago de inscripción.
