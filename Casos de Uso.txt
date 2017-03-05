@@ -1,16 +1,16 @@
 ﻿En este documento enumeremos los casos de uso y si es necesario
 dar una breve descripción del mismo:
 ===================================================CASOS DE USO===========================================================
-CUT1: Resgistrar equipo
-(se mostrará un pantalla UIT-"Tipo de Torneo" <Interfaz de Usuario>
-en donde el capitán pueda seleccionar el tipo de torneo, una vez hecho esto, se pasara
+CUT1: Registrar equipo
+(se mostrará una pantalla UIT-"Tipo de Torneo" <Interfaz de Usuario>
+en donde el capitán pueda seleccionar el tipo de torneo, una vez hecho esto, se pasará
 a la pantalla UIT-"Nombre y Capitán" en donde se hará el registro del nombre del equipo y el capitán
 terminado el registro anterior, se mostrará la pantalla UIT-"Plantilla de Jugadores" en donde se verá una plantilla de los jugadores
 registrados y los lugares disponibles)
 
-CUT2: Resgistrar jugador
+CUT2: Registrar jugador
 (se mostrará la pantalla UIT-"Registro de Jugador" en la cual el usuario deberá llenar los campos de información que se le solicitan;
-una vez terminado el registro del jugador, se regresara a la UIT-"Plantilla de Jugadores")
+una vez terminado el registro del jugador, se regresará a la UIT-"Plantilla de Jugadores")
 
 CUT3: Solicitar cambio de fecha/hora de partido
 (Cuando un equipo no pueda presentarse a jugar, el capitán puede enviar un mensaje al administrador solicitando un cambio de fecha/hora de juego.) 
@@ -25,22 +25,22 @@ CUT4.2 Modificar fecha/hora de los partidos.
 (Si ambos capitanes están de acuerdo con la fecha propuesta, el administrador deberá modificar el calendario correspondiente con la nueva fecha/hora).
 
 CUT5: Crear torneo
-(el administrador crea un nuevo torneo, ingresando los horarios disponibles para jugar a lo largo del mismo,concluido lo anterior,
+(el administrador crea un nuevo torneo, ingresando los horarios disponibles para jugar a lo largo del mismo, concluido lo anterior,
 el sistema publica la convocatoria y se abre el periodo de registro)
 
 CUT6: Consultar calendario y resultado de los torneos. 
-(Un usuario,  puede consultar el calendario completo del torneo y el resultado de los juegos realizados hasta el momento 
+(Un usuario, puede consultar el calendario completo del torneo y el resultado de los juegos realizados hasta el momento 
 <<En el calendario pueden mostrarse los resultados>>).
 
-CUT7: Consultar grupos y estadisticas.
+CUT7: Consultar grupos y estadísticas.
 (La consulta de las posiciones en cada grupo <<puntos, goles, ...>>).
 
 CUT8: Aprobar solicitud de registro de equipo.
 (Una vez que el capitán haya registrado a su equipo, el registro entrará en un estado de "Espera", hasta que éste entregue la cuota correspondiente
-al administrador. Una vez hecho el pago, el administrador deberá cambiar su estado a "Válidado"; en ese momento el equipo queda dentro de los registros
+al administrador. Una vez hecho el pago, el administrador deberá cambiar su estado a "Validado"; en ese momento el equipo queda dentro de los registros
 del torneo.)
 
-CUT9.Subir resultados de partidos.
+CUT9. Subir resultados de partidos.
 (El administrador sube la información de los partidos que ya se jugaron para que el sistema actualice las posiciones)
 
 
@@ -52,4 +52,4 @@ Al inicio del semestre el administrador publica las convocatorias del torneo de 
 CU8. Publicar grupos y horarios.
 Publicación de los horarios en que cada grupo juega, para que los equipos puedan elegir.
 
-Estos dos casos de uso, en mi opinión están inmersos en el CUT4. 
+Estos dos casos de uso, en mi opinión están inmersos en el CUT4.
