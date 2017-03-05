@@ -1,7 +1,24 @@
-Archivo que enlista los RF y RNF
+﻿Archivo que enlista los RF y RNF
 
-RF
+=================================================Requerimientos funcionales ==============================================
 El Coordinador del club de fútbol establecerá las fechas y horarios de los torneos.
+RF1. Usuarios
+RF2. Torneos.
+RF3. Calendario de partidos.
+RF4. Catálogo de equipos.
+RF5. Catálogo de jugadores.
+RF6. Catálogo de árbitros.
+RF7. Grupos del torneo.
+RF8. Convocatorias.
+RF9. Árbitros.
+RF10. Entrenamientos.
+RF11. Cancelaciones de partidos.
+RF12: El sistema podrá registrar/modificar/eliminar a un estudiante dentro del club de futbol de la ESCOM.
+RF13: El sistema será capaz de llevar la contabilidad de horas entrenadas/jugadas de cada miembro del club.
+RF14: Un usuario será capaz de crear un torneo nuevo y lanzar la convocatoria, siempre y cuando dicho torneo sea aprobado y verificado por autoridades superiores a él.
+RF15: Un usuario será capaz de modificar, si es que lo requiere, la fecha de algún partido previamente establecida. Con la restricción de que dicho cambio haya sido acordado por ambos equipos y que haya sido aceptada por las autoridades competentes.
+RF16: El capitán de equipo puede solicitar un cambio de fecha u horario de un partido, al Coordinador del Club, en tanto que la solicitud sea aprobada por conformidad de los demás participantes del torneo, a través del Coordinador como intermediario.
 
-RNF
+
+=================================================Requerimientos no funcionales============================================
 El sistema estará disponible en una plataforma web.
