@@ -1,0 +1,32 @@
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CUT4}{Recibir solicitudes de cambio de horario}{
+		Este caso de uso permite al Coordinador del club de futbol, recibir solicitudes de cambio de fecha/hora de partido por parte de algunos de los capitanes de los equipos participantes en el torneo.
+	}
+		\UCitem{Versión}{1.0}
+		\UCitem{Actor}{Coordinador del club de futbol}
+		\UCitem{Propósito}{Informar al Coordinador sobre las distintas solicitudes de cambio de horario por parte de los capitanes, para su correspondiente gestion}
+		\UCitem{Entradas}{Ninguna.}
+		\UCitem{Origen}{Lista de solicitudes de cambio de horario.}
+		\UCitem{Salidas}{Lista de solicitudes de cambio de horario.}
+		\UCitem{Destino}{Se enviara una notificacion al capitan del equipo correspondiente.}
+		\UCitem{Precondiciones}{Que exista al menos una solicitud de cambio de horario.}
+		\UCitem{Postcondiciones}{Se enviara una notificacion a los capitanes correspondiente sobre el cambio de horario.}
+		\UCitem{Errores}{}
+		\UCitem{Tipo}{Caso de uso primario}
+		\UCitem{Observaciones}{Dado que los jugadores de los equipos son estudiantes, es normal que soliciten un cambio de horario debido a sus estudios.}
+		\UCitem{Autor}{Miguel Ángel Morales García.}
+		\UCitem{Revisor}{Nadie}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] Da click en una solicitud de cambio de horario.
+		\UCpaso Despliega \IUref{IUT4}{datos de solicitud} \label{CUT4 Solicitud}.
+		\UCpaso[\UCactor] Da click en el boton enviar notificacion. 
+		\UCpaso Envia notificacion al capitan correspondiente.
+		\UCpaso Muestra mensaje de confirmación.
+	\end{UCtrayectoria}
+%-------------------------------------- TERMINA descripción del caso de uso.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
